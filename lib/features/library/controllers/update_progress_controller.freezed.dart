@@ -18,9 +18,7 @@ final _privateConstructorUsedError = UnsupportedError(
 mixin _$UpdateProgressState {
   int? get progress => throw _privateConstructorUsedError;
 
-  /// Create a copy of UpdateProgressState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   $UpdateProgressStateCopyWith<UpdateProgressState> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -44,8 +42,6 @@ class _$UpdateProgressStateCopyWithImpl<$Res, $Val extends UpdateProgressState>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of UpdateProgressState
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -80,8 +76,6 @@ class __$$UpdateProgressLoadingImplCopyWithImpl<$Res>
       $Res Function(_$UpdateProgressLoadingImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of UpdateProgressState
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -122,9 +116,7 @@ class _$UpdateProgressLoadingImpl extends UpdateProgressLoading {
   @override
   int get hashCode => Object.hash(runtimeType, progress);
 
-  /// Create a copy of UpdateProgressState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$UpdateProgressLoadingImplCopyWith<_$UpdateProgressLoadingImpl>
@@ -139,11 +131,8 @@ abstract class UpdateProgressLoading extends UpdateProgressState {
 
   @override
   int get progress;
-
-  /// Create a copy of UpdateProgressState
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$UpdateProgressLoadingImplCopyWith<_$UpdateProgressLoadingImpl>
       get copyWith => throw _privateConstructorUsedError;
 }
@@ -167,8 +156,6 @@ class __$$UpdateProgressLoadedImplCopyWithImpl<$Res>
       $Res Function(_$UpdateProgressLoadedImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of UpdateProgressState
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -208,9 +195,7 @@ class _$UpdateProgressLoadedImpl extends UpdateProgressLoaded {
   @override
   int get hashCode => Object.hash(runtimeType, progress);
 
-  /// Create a copy of UpdateProgressState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$UpdateProgressLoadedImplCopyWith<_$UpdateProgressLoadedImpl>
@@ -226,11 +211,8 @@ abstract class UpdateProgressLoaded extends UpdateProgressState {
 
   @override
   int? get progress;
-
-  /// Create a copy of UpdateProgressState
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$UpdateProgressLoadedImplCopyWith<_$UpdateProgressLoadedImpl>
       get copyWith => throw _privateConstructorUsedError;
 }

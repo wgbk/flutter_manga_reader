@@ -33,9 +33,6 @@ class _$LibraryStateCopyWithImpl<$Res, $Val extends LibraryState>
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
-
-  /// Create a copy of LibraryState
-  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -52,9 +49,6 @@ class __$$LibraryLoadingImplCopyWithImpl<$Res>
   __$$LibraryLoadingImplCopyWithImpl(
       _$LibraryLoadingImpl _value, $Res Function(_$LibraryLoadingImpl) _then)
       : super(_value, _then);
-
-  /// Create a copy of LibraryState
-  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -99,8 +93,6 @@ class __$$LibraryLoadedImplCopyWithImpl<$Res>
       _$LibraryLoadedImpl _value, $Res Function(_$LibraryLoadedImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of LibraryState
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -147,9 +139,7 @@ class _$LibraryLoadedImpl extends LibraryLoaded {
   int get hashCode =>
       Object.hash(runtimeType, const DeepCollectionEquality().hash(_mangas));
 
-  /// Create a copy of LibraryState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$LibraryLoadedImplCopyWith<_$LibraryLoadedImpl> get copyWith =>
@@ -162,10 +152,7 @@ abstract class LibraryLoaded extends LibraryState {
   const LibraryLoaded._() : super._();
 
   List<Manga> get mangas;
-
-  /// Create a copy of LibraryState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$LibraryLoadedImplCopyWith<_$LibraryLoadedImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -184,9 +171,6 @@ class __$$LibraryEmptyImplCopyWithImpl<$Res>
   __$$LibraryEmptyImplCopyWithImpl(
       _$LibraryEmptyImpl _value, $Res Function(_$LibraryEmptyImpl) _then)
       : super(_value, _then);
-
-  /// Create a copy of LibraryState
-  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -231,8 +215,6 @@ class __$$LibraryErrorImplCopyWithImpl<$Res>
       _$LibraryErrorImpl _value, $Res Function(_$LibraryErrorImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of LibraryState
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -271,9 +253,7 @@ class _$LibraryErrorImpl extends LibraryError {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  /// Create a copy of LibraryState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$LibraryErrorImplCopyWith<_$LibraryErrorImpl> get copyWith =>
@@ -286,10 +266,7 @@ abstract class LibraryError extends LibraryState {
   const LibraryError._() : super._();
 
   String get message;
-
-  /// Create a copy of LibraryState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$LibraryErrorImplCopyWith<_$LibraryErrorImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

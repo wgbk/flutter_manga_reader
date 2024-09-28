@@ -33,9 +33,6 @@ class _$ChapterViewerStateCopyWithImpl<$Res, $Val extends ChapterViewerState>
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
-
-  /// Create a copy of ChapterViewerState
-  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -52,9 +49,6 @@ class __$$ChapterViewerLoadingImplCopyWithImpl<$Res>
   __$$ChapterViewerLoadingImplCopyWithImpl(_$ChapterViewerLoadingImpl _value,
       $Res Function(_$ChapterViewerLoadingImpl) _then)
       : super(_value, _then);
-
-  /// Create a copy of ChapterViewerState
-  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -102,8 +96,6 @@ class __$$ChapterViewerLoadedImplCopyWithImpl<$Res>
       $Res Function(_$ChapterViewerLoadedImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of ChapterViewerState
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -122,8 +114,6 @@ class __$$ChapterViewerLoadedImplCopyWithImpl<$Res>
     ));
   }
 
-  /// Create a copy of ChapterViewerState
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $ChapterCopyWith<$Res> get chapter {
@@ -169,9 +159,7 @@ class _$ChapterViewerLoadedImpl extends ChapterViewerLoaded {
   int get hashCode => Object.hash(
       runtimeType, chapter, const DeepCollectionEquality().hash(_pages));
 
-  /// Create a copy of ChapterViewerState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$ChapterViewerLoadedImplCopyWith<_$ChapterViewerLoadedImpl> get copyWith =>
@@ -187,10 +175,7 @@ abstract class ChapterViewerLoaded extends ChapterViewerState {
 
   Chapter get chapter;
   List<ChapterPage> get pages;
-
-  /// Create a copy of ChapterViewerState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$ChapterViewerLoadedImplCopyWith<_$ChapterViewerLoadedImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -212,8 +197,6 @@ class __$$ChapterViewerErrorImplCopyWithImpl<$Res>
       $Res Function(_$ChapterViewerErrorImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of ChapterViewerState
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -252,9 +235,7 @@ class _$ChapterViewerErrorImpl extends ChapterViewerError {
   @override
   int get hashCode => Object.hash(runtimeType, error);
 
-  /// Create a copy of ChapterViewerState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$ChapterViewerErrorImplCopyWith<_$ChapterViewerErrorImpl> get copyWith =>
@@ -268,10 +249,7 @@ abstract class ChapterViewerError extends ChapterViewerState {
   const ChapterViewerError._() : super._();
 
   String? get error;
-
-  /// Create a copy of ChapterViewerState
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$ChapterViewerErrorImplCopyWith<_$ChapterViewerErrorImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

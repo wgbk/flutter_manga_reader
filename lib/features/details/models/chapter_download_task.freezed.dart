@@ -22,9 +22,7 @@ mixin _$ChapterDownloadTask {
   double get progress => throw _privateConstructorUsedError;
   Map<String, String>? get headers => throw _privateConstructorUsedError;
 
-  /// Create a copy of ChapterDownloadTask
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   $ChapterDownloadTaskCopyWith<ChapterDownloadTask> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -55,8 +53,6 @@ class _$ChapterDownloadTaskCopyWithImpl<$Res, $Val extends ChapterDownloadTask>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of ChapterDownloadTask
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -90,8 +86,6 @@ class _$ChapterDownloadTaskCopyWithImpl<$Res, $Val extends ChapterDownloadTask>
     ) as $Val);
   }
 
-  /// Create a copy of ChapterDownloadTask
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $ChapterCopyWith<$Res> get chapter {
@@ -128,8 +122,6 @@ class __$$ChapterDownloadTaskImplCopyWithImpl<$Res>
       $Res Function(_$ChapterDownloadTaskImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of ChapterDownloadTask
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -230,9 +222,7 @@ class _$ChapterDownloadTaskImpl extends _ChapterDownloadTask {
       progress,
       const DeepCollectionEquality().hash(_headers));
 
-  /// Create a copy of ChapterDownloadTask
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$ChapterDownloadTaskImplCopyWith<_$ChapterDownloadTaskImpl> get copyWith =>
@@ -259,11 +249,8 @@ abstract class _ChapterDownloadTask extends ChapterDownloadTask {
   double get progress;
   @override
   Map<String, String>? get headers;
-
-  /// Create a copy of ChapterDownloadTask
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$ChapterDownloadTaskImplCopyWith<_$ChapterDownloadTaskImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

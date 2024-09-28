@@ -20,9 +20,7 @@ mixin _$ChapterHistory {
   Chapter get chapter => throw _privateConstructorUsedError;
   DateTime get readAt => throw _privateConstructorUsedError;
 
-  /// Create a copy of ChapterHistory
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   $ChapterHistoryCopyWith<ChapterHistory> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -49,8 +47,6 @@ class _$ChapterHistoryCopyWithImpl<$Res, $Val extends ChapterHistory>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of ChapterHistory
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -74,8 +70,6 @@ class _$ChapterHistoryCopyWithImpl<$Res, $Val extends ChapterHistory>
     ) as $Val);
   }
 
-  /// Create a copy of ChapterHistory
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $MangaCopyWith<$Res> get manga {
@@ -84,8 +78,6 @@ class _$ChapterHistoryCopyWithImpl<$Res, $Val extends ChapterHistory>
     });
   }
 
-  /// Create a copy of ChapterHistory
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $ChapterCopyWith<$Res> get chapter {
@@ -119,8 +111,6 @@ class __$$ChapterHistoryImplCopyWithImpl<$Res>
       _$ChapterHistoryImpl _value, $Res Function(_$ChapterHistoryImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of ChapterHistory
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -176,9 +166,7 @@ class _$ChapterHistoryImpl implements _ChapterHistory {
   @override
   int get hashCode => Object.hash(runtimeType, manga, chapter, readAt);
 
-  /// Create a copy of ChapterHistory
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$ChapterHistoryImplCopyWith<_$ChapterHistoryImpl> get copyWith =>
@@ -198,11 +186,8 @@ abstract class _ChapterHistory implements ChapterHistory {
   Chapter get chapter;
   @override
   DateTime get readAt;
-
-  /// Create a copy of ChapterHistory
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$ChapterHistoryImplCopyWith<_$ChapterHistoryImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
